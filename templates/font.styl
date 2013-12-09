@@ -1,7 +1,8 @@
-each variant in variants()
-    // _title(variant)
+
+for variant in _variants
+    /* _get('title', variant) */
     @font-face
         font-family: family
-        font-style: _style(variant)
-        //font-weight: _weight(variant)
-        //src: url(_src(variant))
+        font-style: _get('style', variant)
+        font-weight: _get('weight', variant)
+        src: url(_get('src', variant))
