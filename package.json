@@ -10,7 +10,6 @@
     "test": "test"
   },
   "scripts": {
-    "debug": "node --debug-brk lib/cwfsample.js $dir",
     "pre-test": "dir=test/webfonts/Amatic; rm -f $dir/sample.html $dir/style.css",
     "test": "node lib/cwfsample.js test/webfonts/Amatic"
   },
@@ -20,6 +19,6 @@
     "jade": "~0.35.0",
     "find-files": "0.0.3",
     "optparse": "~1.0.4",
-    "stylus": "~0.41.0"
+    "stylus": "~0.41.1"
   }
 }
