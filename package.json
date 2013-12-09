@@ -1,0 +1,25 @@
+{
+  "name": "webfont-samplomatic",
+  "version": "1.0.0",
+  "description": "Create a typographic sample page and font-family css file for your webfont",
+  "bin": "lib/cwfsample.js",
+  "main": "lib/cwfsample.js",
+  "directories": {
+    "lib": "lib",
+    "templates": "templates",
+    "test": "test"
+  },
+  "scripts": {
+    "debug": "node --debug-brk lib/cwfsample.js $dir",
+    "pre-test": "dir=test/webfonts/Amatic; rm -f $dir/sample.html $dir/style.css",
+    "test": "node lib/cwfsample.js test/webfonts/Amatic"
+  },
+  "author": "Alister Lewis-Bowen <alister@different.com>",
+  "license": "BSD-2-Clause",
+  "dependencies": {
+    "jade": "~0.35.0",
+    "find-files": "0.0.3",
+    "optparse": "~1.0.4",
+    "stylus": "~0.41.0"
+  }
+}

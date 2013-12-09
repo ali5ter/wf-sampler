@@ -1,0 +1,15 @@
+/* #1 Regular Weight */
+@font-face {
+    font-family: "Monserrat";
+    font-style: normal;
+    font-weight: normal; 
+    src: url("Monserrat-Regular.ttf");
+}
+
+/* #2 Bold Weight */
+@font-face {
+    font-family: "Monserrat";
+    font-style: normal;
+    font-weight: bold;
+    src: url("Monserrat-Bold.ttf");
+}
