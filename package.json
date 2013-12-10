@@ -11,7 +11,7 @@
   },
   "scripts": {
     "pre-test": "dir=test/webfonts/Amatic; rm -f $dir/sample.html $dir/style.css",
-    "test": "node lib/wf-sampler.js test/webfonts/Amatic"
+    "test": "node lib/wf-sampler.js test/webfonts/Amatic; node lib/wf-sampler.js test/webfonts/Economica; node lib/wf-sampler.js test/webfonts/OpenSans;"
   },
   "author": "Alister Lewis-Bowen <alister@different.com>",
   "license": "BSD-2-Clause",
