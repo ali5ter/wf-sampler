@@ -1,7 +1,7 @@
 {
   "name": "wf-sampler",
   "version": "1.0.0",
-  "description": "Create a typographic sample page and font-family css file for your webfont",
+  "description": "Create a sample page and font-family css file for your webfont",
   "bin": "lib/wf-sampler.js",
   "main": "lib/wf-sampler.js",
   "directories": {
