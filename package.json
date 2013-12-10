@@ -1,9 +1,9 @@
 {
-  "name": "webfont-samplomatic",
+  "name": "wf-sampler",
   "version": "1.0.0",
   "description": "Create a typographic sample page and font-family css file for your webfont",
-  "bin": "lib/cwfsample.js",
-  "main": "lib/cwfsample.js",
+  "bin": "lib/wf-sampler.js",
+  "main": "lib/wf-sampler.js",
   "directories": {
     "lib": "lib",
     "templates": "templates",
@@ -11,7 +11,7 @@
   },
   "scripts": {
     "pre-test": "dir=test/webfonts/Amatic; rm -f $dir/sample.html $dir/style.css",
-    "test": "node lib/cwfsample.js test/webfonts/Amatic"
+    "test": "node lib/wf-sampler.js test/webfonts/Amatic"
   },
   "author": "Alister Lewis-Bowen <alister@different.com>",
   "license": "BSD-2-Clause",

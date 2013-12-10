@@ -1,0 +1,28 @@
+/* #1 Bold 700 */
+@font-face {
+  font-family: 'Economica';
+  font-style: normal;
+  font-weight: 700;
+  src: url("Economica-Bold.ttf");
+}
+/* #2 Bold 700 Italic */
+@font-face {
+  font-family: 'Economica';
+  font-style: italic;
+  font-weight: 700;
+  src: url("Economica-BoldItalic.ttf");
+}
+/* #3 Normal 400 Italic */
+@font-face {
+  font-family: 'Economica';
+  font-style: italic;
+  font-weight: 400;
+  src: url("Economica-Italic.ttf");
+}
+/* #4 Normal 400 */
+@font-face {
+  font-family: 'Economica';
+  font-style: normal;
+  font-weight: 400;
+  src: url("Economica-Regular.ttf");
+}

@@ -1,0 +1,14 @@
+/* #1 Bold 700 */
+@font-face {
+  font-family: 'Amatic';
+  font-style: normal;
+  font-weight: 700;
+  src: url("Amatic-Bold.ttf");
+}
+/* #2 Normal 400 */
+@font-face {
+  font-family: 'Amatic';
+  font-style: normal;
+  font-weight: 400;
+  src: url("AmaticSC-Regular.ttf");
+}
