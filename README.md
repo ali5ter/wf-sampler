@@ -7,6 +7,7 @@ A simple node cli module to generate a font-family css file and sample html page
 
 <img src="https://github.com/ali5ter/wf-sampler/blob/master/screenshots/wf-sampler-00.png?raw=true" width="32%"/>&nbsp;
 <img src="https://github.com/ali5ter/wf-sampler/blob/master/screenshots/wf-sampler-01.png?raw=true" width="32%"/>&nbsp;
+<img src="https://github.com/ali5ter/wf-sampler/blob/master/screenshots/wf-sampler-02.png?raw=true" width="32%"/>&nbsp;
 
 Installation
 ------------
