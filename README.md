@@ -19,4 +19,4 @@ Usage
 
     wf-sampler directory_of_font
 
-Alter the output by editing the jade and stylus template under <code/>templates</code>.
+Alter the output by editing the jade and stylus template under <code>templates</code>.
