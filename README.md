@@ -5,7 +5,8 @@ A simple node cli module to generate a font-family css file and sample html page
 
 (Really an excuse to use [Jade](http://jade-lang.com) and [Stylus](http://learnboost.github.io/stylus/) outside the context of [Express](http://expressjs.com))
 
-<!--img src="https://github.com/ali5ter/wf-sampler/blob/master/screenshots/wf-sampler-00.png?raw=true" width="32%"/>&nbsp;-->
+<img src="https://github.com/ali5ter/wf-sampler/blob/master/screenshots/wf-sampler-00.png?raw=true" width="32%"/>&nbsp;
+<img src="https://github.com/ali5ter/wf-sampler/blob/master/screenshots/wf-sampler-01.png?raw=true" width="32%"/>&nbsp;
 
 Installation
 ------------
