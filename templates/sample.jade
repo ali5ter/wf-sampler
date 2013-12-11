@@ -17,24 +17,24 @@ html(lang="en")
             hr.ornament { padding: 0; border: none; border-top: medium double rgba(0, 0, 0, 0.1); color: #333; text-align: center; }
             .container { margin: 0 auto; max-width: 960px; padding: 0 2em; color: #222; }
             .samples { font-family: '#{family}'; margin-bottom: 2em; }
-            .panagram { color: #222; }
+            .pangram { color: #222; }
             .large { font-size: 6em; line-height: 1.1em; margin-bottom: .5em; }
             .variants { margin-bottom: 2em; }
             .variant { margin-bottom: .5em; white-space: nowrap; }
             .variant .name,
             footer p { display: block; font-family: arial; font-size: .8em; font-weight: normal; color: #777; margin: 0; }
-            .variant .panagram { display: block; font-size: 3em; margin: 0; }
+            .variant .pangram { display: block; font-size: 3em; margin: 0; }
         body
             .container
                 h1= family
                 hr.heading
                 .samples
-                    .panagram.large= panogram
+                    .pangram.large= pangram
                     .variants
                         each variant in data
                             .variant
                                 h2.name= variant.title
-                                p.panagram(style="#{variant.css}")= panogram
+                                p.pangram(style="#{variant.css}")= pangram
                     each text in sampleText
                         p.paragraph(style="#{css}")= text
                 footer
@@ -44,7 +44,7 @@ html(lang="en")
                         a(href="") wf-sampler
                         |. Test web fonts from 
                         a(href="http://fontsquirrel.com") Font Squirrel
-                        |. Panagram from 
+                        |. Pangram from 
                         a(href="http://en.wikipedia.org/wiki/List_of_pangrams") Wikipedia
                         |. Sample text from 
                         a(href="http://fillerati.com") Fillerati
