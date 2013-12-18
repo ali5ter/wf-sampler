@@ -2,11 +2,11 @@
   "name": "wf-sampler",
   "version": "1.0.0",
   "description": "A script to generate an HTML typographic sampler in a directory for any True Type fonts found there",
-  "bin": "lib/wf-sampler.js",
+  "bin": {
+    "wf-sampler": "lib/wf-sampler.js"
+  },
   "main": "lib/wf-sampler.js",
   "directories": {
-    "lib": "lib",
-    "templates": "templates",
     "test": "test"
   },
   "scripts": {
@@ -20,5 +20,14 @@
     "find-files": "0.0.3",
     "optparse": "~1.0.4",
     "stylus": "~0.41.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.different.com/alister/wf-sampler.git"
+  },
+  "keywords": [
+    "css",
+    "fonts"
+  ]
 }
