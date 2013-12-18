@@ -1,7 +1,7 @@
 {
   "name": "wf-sampler",
   "version": "1.0.0",
-  "description": "Create a sample page and font-family css file for your webfont",
+  "description": "A script to generate an HTML typographic sampler in a directory for any True Type fonts found there",
   "bin": "lib/wf-sampler.js",
   "main": "lib/wf-sampler.js",
   "directories": {

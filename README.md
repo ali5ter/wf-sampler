@@ -1,24 +1,14 @@
-web font samplermator
-=====================
+# wf-sampler
+## What did that font look like again?
 
-A simple node cli module to generate a font-family css file and sample html page for your stray ttl files.
+A script to generate an HTML typographic sampler in a directory for any true Type Type fonts found there.
+A bonus is that the CSS to define these fonts is also generated enabling you to use these fonts in your web-based applications.
 
-(Really an excuse to use [Jade](http://jade-lang.com) and [Stylus](http://learnboost.github.io/stylus/) outside the context of [Express](http://expressjs.com))
+## Installation
 
-<img src="https://github.com/ali5ter/wf-sampler/blob/master/screenshots/wf-sampler-00.png?raw=true" width="32%"/>&nbsp;
-<img src="https://github.com/ali5ter/wf-sampler/blob/master/screenshots/wf-sampler-01.png?raw=true" width="32%"/>&nbsp;
-<img src="https://github.com/ali5ter/wf-sampler/blob/master/screenshots/wf-sampler-02.png?raw=true" width="32%"/>&nbsp;
+    npm install && sudo npm link
 
-Installation
-------------
+## Usage
 
-After cloning this repository:
+    wf-sampler directory_containing_ttf_files
 
-    npm install
-
-Usage
------
-
-    wf-sampler directory_of_font
-
-Alter the output by editing the jade and stylus template under <code>templates</code>.
