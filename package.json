@@ -2,16 +2,16 @@
   "name": "wf-sampler",
   "version": "1.0.0",
   "description": "A script to generate an HTML typographic sampler in a directory for any True Type fonts found there",
-  "bin": {
-    "wf-sampler": "lib/wf-sampler.js"
+  "bin" : {
+    "wf-sampler": "./wf-sampler.js"
   },
-  "main": "lib/wf-sampler.js",
+  "main": "wf-sampler.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
     "pre-test": "dir=test/webfonts/Amatic; rm -f $dir/sample.html $dir/style.css",
-    "test": "node lib/wf-sampler.js test/webfonts/Amatic; node lib/wf-sampler.js test/webfonts/Economica; node lib/wf-sampler.js test/webfonts/OpenSans;"
+    "test": "node wf-sampler.js test/webfonts/Amatic; node wf-sampler.js test/webfonts/Economica; node wf-sampler.js test/webfonts/OpenSans;"
   },
   "author": "Alister Lewis-Bowen <alister@different.com>",
   "license": "BSD-2-Clause",

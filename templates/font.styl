@@ -1,7 +1,7 @@
-for variant in _variants
-    _comment(variant)
+for face in _faces
+    _comment(face)
     @font-face
         font-family: family
-        font-style: _get('style', variant)
-        font-weight: _get('weight', variant)
-        src: url(_get('src', variant))
+        font-style: _get('style', face)
+        font-weight: _get('weight', face)
+        src: url(_get('src', face))
