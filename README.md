@@ -1,3 +1,5 @@
+> **⚠️ Archived 2025-08-25. No longer maintained.**
+
 # wf-sampler
 
 A script to generate an HTML page of font samples in a directory for any true Type Type fonts found there.
